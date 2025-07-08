@@ -27,5 +27,60 @@
   "TEXTO_EDUCATIVO": "Educational Text",
   "ESPANOL": "Spanish",
   "INGLES": "English",
-  "LOAD_MORE": "Load More"
+  "LOAD_MORE": "Load More",
+  "DETAIL_AUTHOR": "Author",
+  "DETAIL_ILLUSTRATOR": "Illustrations",
+  "DETAIL_TYPE": "Book Type",
+  "DETAIL_SUBJECT": "Subject",
+  "DETAIL_LEVEL": "Educational Level",
+  "DETAIL_GENRE": "Genre",
+  "DETAIL_GUIDE": "Didactic Guide",
+  "DETAIL_SIZE": "Size",
+  "DETAIL_PAGES": "Pages",
+  "DETAIL_ISBN": "I.S.B.N.",
+  "DETAIL_DEPOSIT": "Legal Deposit",
+  "SYNOPSIS": "Synopsis",
+  "IDIOMA": "Language",
+  "CUENTOS_INFANTILES": "Children's Stories",
+  "CUENTOS_INFANTILES_CONTRA_LA_VIOLENCIA": "Children's Stories Against Violence",
+  "NOVELA_INFANTIL_JUVENIL": "Children's and Youth Novel",
+  "POESIA_COSTUMBRISTA_EN_SONETOS": "Costumbrist Poetry in Sonnets",
+  "NOVELA_JUVENIL": "Young Adult Novel",
+  "ANTOLOGIA_DE_CUENTOS_JUVENILES_SOBRE_EL_CORONAVIRUS": "Anthology of Youth Stories About the Coronavirus",
+  "CUENTO_INFANTIL": "Children's Story",
+  "CUENTOS_JUVENILES": "Youth Stories",
+  "FABULA": "Fable",
+  "POESIA_INFANTIL": "Children's Poetry",
+  "NOVELA_INFANTIL": "Children's Novel",
+  "RELATO_INFANTIL": "Children's Tale",
+  "YES": "Yes",
+  "TODO_PUBLICO": "For all audiences",
+  "A_PARTIR_DE_12_ANOS_DE_EDAD": "For ages 12 and up",
+  "HISTORIA": {
+    "TITLE": "About Us",
+    "P1": "Otero Ediciones was founded in 2017 in Santa Cruz de la Sierra, Bolivia, with a clear purpose: to revive the habit of reading in children and young people through literary works that are current, wholesome, entertaining, and full of values such as friendship, family, respect, and self-esteem.",
+    "P2": "We proudly carry the surname Otero in honor of Raúl Otero Reiche, an icon of Bolivian literature whose legacy inspires us to keep building bridges between new generations and the world of letters.",
+
+    "OUR_PROPOSAL": "Our Proposal",
+    "P3": "We specialize in two main editorial lines:",
+
+    "LIT_GUIDE_TITLE": "1. Literary Works with Didactic Guides",
+    "P4": "Our literary publications aim not only to entertain but also to encourage critical, creative, and reflective reading. Each book includes a pedagogical guide with dynamic activities, open-ended questions, and alternative ending suggestions, designed to stimulate imagination and analytical thinking. These are books for all ages, taking adults back to their childhood while helping them share meaningful moments with their children.",
+
+    "EDU_TEXTS_TITLE": "2. Educational Texts Aligned with Current Curricula",
+    "P5": "We publish school materials for both technical and humanistic subjects, designed with pedagogical rigor and a holistic approach. Among our main subject areas are:",
+
+    "LIST": {
+      "PHYSICAL_EDUCATION": "Physical Education, Sports, and Recreation: sports, nutrition, traditional games, health, and hygiene.",
+      "MUSIC_EDUCATION": "Music Education: songbooks, sheet music, coloring and cut-out activities, respectful and inspiring lyrics.",
+      "VISUAL_ARTS": "Visual and Plastic Arts: techniques such as tearing, stippling, architectural drawing, and creative recycling.",
+      "VALUES_BOOK": "My Book of Values: principles such as respect, solidarity, and empathy.",
+      "COSMOVISION": "Worldviews, Psychology, and Philosophy: emotional, cultural, and social analysis without ideological distortion.",
+      "LANGUAGE": "Language and Communication: clear and current texts including grammar, spelling, handwriting, and dynamic reading plans."
+    },
+
+    "BEYOND_CONTENT": "Beyond the Content",
+    "P6": "At Otero Ediciones we not only meet the requirements of the Ministry of Education — we also work toward the student's holistic development. Each text is carefully designed in terms of visuals, content, and activities, using original and accessible visual resources.",
+    "P7": "Our ultimate goal is to help shape critical, creative, healthy citizens with strong human values."
+  }
 }

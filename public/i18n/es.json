@@ -27,5 +27,60 @@
   "TEXTO_EDUCATIVO": "Texto Educativo",
   "ESPANOL": "Español",
   "INGLES": "Inglés",
-  "LOAD_MORE": "Cargar Más"
+  "LOAD_MORE": "Cargar Más",
+  "DETAIL_AUTHOR": "Autor/a",
+  "DETAIL_ILLUSTRATOR": "Ilustraciones",
+  "DETAIL_TYPE": "Tipo de Libro",
+  "DETAIL_SUBJECT": "Materia",
+  "DETAIL_LEVEL": "Nivel Educativo",
+  "DETAIL_GENRE": "Género",
+  "DETAIL_GUIDE": "Guía didáctica",
+  "DETAIL_SIZE": "Tamaño",
+  "DETAIL_PAGES": "Páginas",
+  "DETAIL_ISBN": "I.S.B.N.",
+  "DETAIL_DEPOSIT": "Depósito legal",
+  "SYNOPSIS": "Sinopsis",
+  "IDIOMA": "Idioma",
+  "CUENTOS_INFANTILES": "Cuentos infantiles",
+  "CUENTOS_INFANTILES_CONTRA_LA_VIOLENCIA": "Cuentos infantiles contra la violencia",
+  "NOVELA_INFANTIL_JUVENIL": "Novela infantil-juvenil",
+  "POESIA_COSTUMBRISTA_EN_SONETOS": "Poesía costumbrista en sonetos",
+  "NOVELA_JUVENIL": "Novela juvenil",
+  "ANTOLOGIA_DE_CUENTOS_JUVENILES_SOBRE_EL_CORONAVIRUS": "Antología de cuentos juveniles sobre el coronavirus",
+  "CUENTO_INFANTIL": "Cuento infantil",
+  "CUENTOS_JUVENILES": "Cuentos juveniles",
+  "FABULA": "Fábula",
+  "POESIA_INFANTIL": "Poesía infantil",
+  "NOVELA_INFANTIL": "Novela infantil",
+  "RELATO_INFANTIL": "Relato infantil",
+  "YES": "Sí",
+  "TODO_PUBLICO": "Todo público",
+  "A_PARTIR_DE_12_ANOS_DE_EDAD": "A partir de 12 años de edad",
+  "HISTORIA": {
+    "TITLE": "Nosotros",
+    "P1": "Otero Ediciones nació en 2017 en Santa Cruz de la Sierra, Bolivia, con un propósito claro: recuperar el hábito de la lectura en niños y jóvenes, y hacerlo a través de obras literarias actuales, sanas, entretenidas y cargadas de valores como la amistad, la familia, el respeto y la autoestima.",
+    "P2": "Llevamos con orgullo el apellido Otero en homenaje a Raúl Otero Reiche, ícono de la literatura boliviana, cuyo legado nos inspira a seguir construyendo puentes entre las nuevas generaciones y el mundo de las letras.",
+
+    "OUR_PROPOSAL": "Nuestra propuesta",
+    "P3": "Nos especializamos en dos grandes líneas editoriales:",
+
+    "LIT_GUIDE_TITLE": "1. Obras literarias con guía didáctica",
+    "P4": "Nuestras publicaciones literarias no solo buscan entretener, sino también invitar a una lectura crítica, creativa y reflexiva. Cada libro incluye una ficha pedagógica con actividades dinámicas, preguntas abiertas y propuestas de finales alternativos, pensadas para estimular la imaginación y el pensamiento analítico. Son libros para todas las edades, que transportan a los adultos a su infancia y ayudan a compartir momentos significativos con sus hijos.",
+
+    "EDU_TEXTS_TITLE": "2. Textos educativos alineados a los planes de estudios vigentes",
+    "P5": "Publicamos materiales escolares para materias técnicas y humanísticas, diseñados con rigurosidad pedagógica y un enfoque integral. Entre nuestras principales áreas se encuentran:",
+
+    "LIST": {
+      "PHYSICAL_EDUCATION": "Educación Física, Deportes y Recreación: deportes, nutrición, juegos tradicionales, salud e higiene.",
+      "MUSIC_EDUCATION": "Educación Musical: cancioneros, pentagramas, actividades para pintar y recortar, letras respetuosas e inspiradoras.",
+      "VISUAL_ARTS": "Artes Plásticas y Visuales: técnicas como el rasgado, punteado, dibujo arquitectónico y reciclaje creativo.",
+      "VALUES_BOOK": "Mi Libro de Valores: principios como el respeto, la solidaridad y la empatía.",
+      "COSMOVISION": "Cosmovisiones, Psicología y Filosofía: análisis emocional, cultural y social sin distorsiones ideológicas.",
+      "LANGUAGE": "Lenguaje y Comunicación: textos claros y actuales con gramática, ortografía, caligrafía y planes lectores dinámicos."
+    },
+
+    "BEYOND_CONTENT": "Más allá del contenido",
+    "P6": "En Otero Ediciones no solo seguimos las exigencias del Ministerio de Educación: también trabajamos por el desarrollo integral del estudiante. Cada texto está cuidadosamente diseñado en imagen, contenido y actividad, con recursos visuales originales y accesibles.",
+    "P7": "Nuestro objetivo final es contribuir a la formación de ciudadanos críticos, creativos, saludables y con sólidos valores humanos."
+  }
 }

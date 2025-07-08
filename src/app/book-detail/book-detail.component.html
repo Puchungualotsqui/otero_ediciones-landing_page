@@ -11,70 +11,77 @@
       <div class="info-columns-wrapper">
         <div class="info-rows-wrapper">
           <app-book-detail-feature
-            label="Autor/a"
+            [label]="'DETAIL_AUTHOR' | translate"
             [value]="book.autor"
-            *ngIf="book.autor !== undefined && book.autor !== null && book.autor !== ''">
+            *ngIf="book.autor">
           </app-book-detail-feature>
 
           <app-book-detail-feature
-            label="Ilustraciones"
+            [label]="'DETAIL_ILLUSTRATOR' | translate"
             [value]="book.ilustrador"
-            *ngIf="book.ilustrador !== undefined && book.ilustrador !== null && book.ilustrador !== ''">
+            *ngIf="book.ilustrador">
           </app-book-detail-feature>
 
           <app-book-detail-feature
-            label="Tipo de Libro"
-            [value]="book.tipo"
-            *ngIf="book.tipo !== undefined && book.tipo !== null && book.tipo !== ''">
+            [label]="'DETAIL_TYPE' | translate"
+            [value]="book.tipo | translate"
+            *ngIf="book.tipo">
           </app-book-detail-feature>
 
           <app-book-detail-feature
-            label="Materia"
-            [value]="book.materia"
-            *ngIf="book.materia !== undefined && book.materia !== null && book.materia !== ''">
+            [label]="'DETAIL_SUBJECT' | translate"
+            [value]="book.materia | translate"
+            *ngIf="book.materia">
           </app-book-detail-feature>
 
           <app-book-detail-feature
-            label="Nivel Educativo"
-            [value]="book.nivel_educativo"
-            *ngIf="book.nivel_educativo !== undefined && book.nivel_educativo !== null && book.nivel_educativo !== ''">
+            [label]="'DETAIL_LEVEL' | translate"
+            [value]="book.nivel_educativo | translate"
+            *ngIf="book.nivel_educativo">
           </app-book-detail-feature>
 
           <app-book-detail-feature
-            label="Género"
-            [value]="book.genero"
-            *ngIf="book.genero !== undefined && book.genero !== null && book.genero !== ''">
+            [label]="'DETAIL_GENRE' | translate"
+            [value]="book.genero | translate"
+            *ngIf="book.genero">
           </app-book-detail-feature>
 
           <app-book-detail-feature
-            label="Guía didáctica"
-            [value]="book.guia_didactica"
-            *ngIf="book.guia_didactica !== undefined && book.guia_didactica !== null && book.guia_didactica !== ''">
+            [label]="'IDIOMA' | translate"
+            [value]="book.idioma | translate"
+            *ngIf="book.idioma">
           </app-book-detail-feature>
 
           <app-book-detail-feature
-            label="Tamaño"
+            [label]="'DETAIL_GUIDE' | translate"
+            [value]="book.guia_didactica | translate"
+            *ngIf="book.guia_didactica">
+          </app-book-detail-feature>
+
+          <app-book-detail-feature
+            [label]="'DETAIL_SIZE' | translate"
             [value]="book.tamano"
-            *ngIf="book.tamano !== undefined && book.tamano !== null && book.tamano !== ''">
+            *ngIf="book.tamano">
           </app-book-detail-feature>
 
           <app-book-detail-feature
-            label="Páginas"
-            [value]="book.paginas"
-            *ngIf="book.paginas !== undefined && book.paginas !== null && book.paginas !== ''">
+            [label]="'DETAIL_PAGES' | translate"
+            [value]="book.paginas | number:'1.0-0'"
+            *ngIf="book.paginas">
           </app-book-detail-feature>
 
           <app-book-detail-feature
-            label="I.S.B.N."
+            [label]="'DETAIL_ISBN' | translate"
             [value]="book.isbn"
-            *ngIf="book.isbn !== undefined && book.isbn !== null && book.isbn !== ''">
+            *ngIf="book.isbn">
           </app-book-detail-feature>
 
           <app-book-detail-feature
-            label="Depósito legal"
+            [label]="'DETAIL_DEPOSIT' | translate"
             [value]="book.deposito_legal"
-            *ngIf="book.deposito_legal !== undefined && book.deposito_legal !== null && book.deposito_legal !== ''">
+            *ngIf="book.deposito_legal">
           </app-book-detail-feature>
+
 
         </div>
       </div>
@@ -82,7 +89,7 @@
       <hr class="section-divider" *ngIf="descripcionText !== undefined && descripcionText !== null && descripcionText !== ''"/>
 
       <div class="sinopsis-wrapper" *ngIf="descripcionText !== undefined && descripcionText !== null && descripcionText !== ''">
-        <h2>Sinopsis</h2>
+        <h2>{{ 'SYNOPSIS' | translate }}</h2>
         <div class="sinopsis" [innerText]="descripcionText"></div>
       </div>
     </div>

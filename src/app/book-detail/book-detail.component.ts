@@ -5,11 +5,12 @@ import {HttpClient} from '@angular/common/http';
 import {BookDetailFeatureComponent} from '../book-detail-feature/book-detail-feature.component';
 import { Subject } from 'rxjs';
 import { takeUntil } from 'rxjs/operators';
+import {TranslatePipe} from '@ngx-translate/core';
 
 @Component({
   selector: 'app-book-detail',
   standalone: true,
-  imports: [CommonModule, BookDetailFeatureComponent],
+  imports: [CommonModule, BookDetailFeatureComponent, TranslatePipe],
   templateUrl: './book-detail.component.html',
   styleUrl: './book-detail.component.css'
 })
