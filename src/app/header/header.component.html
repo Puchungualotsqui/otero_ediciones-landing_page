@@ -1,0 +1,19 @@
+<header class="header">
+  <div class="container">
+    <a routerLink="" class="logo-link">
+      <img class="logo" alt="Otero Ediciones Logo" src="./assets/LogoOteroEdiciones.jpg"/>
+    </a>
+    <app-search-bar class="search-wrapper"/>
+    <nav class="nav">
+      <a routerLink="/catalogo" routerLinkActive="active">{{ 'CATALOG' | translate}}</a>
+      <a routerLink="/historia" routerLinkActive="active">{{ 'HISTORY' | translate}}</a>
+      <a class="lang-switcher">
+        <select (change)="changeLang($event)">
+          <option value="es">Español</option>
+          <option value="en">English</option>
+        </select>
+      </a>
+    </nav>
+
+  </div>
+</header>

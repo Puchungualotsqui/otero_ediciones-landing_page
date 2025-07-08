@@ -1,0 +1,17 @@
+.info-row {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  margin: 0.4rem 0;
+}
+
+.label {
+  flex: 0 0 150px;
+  font-weight: normal;
+  color: #555;
+}
+
+.value {
+  font-weight: normal;
+  color: #222;
+}

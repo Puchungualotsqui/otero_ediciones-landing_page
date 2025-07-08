@@ -1,0 +1,18 @@
+.book-row {
+  margin-bottom: 5px;
+}
+
+.row-title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.book-row-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.25rem;
+}
+

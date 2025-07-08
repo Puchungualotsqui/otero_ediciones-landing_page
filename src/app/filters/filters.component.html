@@ -1,0 +1,35 @@
+<div class="filters-container">
+  <app-single-filter
+    (valueChanged)="nivelEducativo = $event"
+    filterName="nivel"
+    [title]="'FILTER_LEVEL' | translate"
+    [options]="['INICIAL', 'PRIMARIA', 'SECUNDARIA']">
+  </app-single-filter>
+
+  <app-single-filter
+    (valueChanged)="materia = $event"
+    filterName="materia"
+    [title]="'FILTER_SUBJECT' | translate"
+    [options]="['EDUCACION_FISICA', 'LITERATURA', 'PSICOLOGIA', 'ARTES_PLASTICAS', 'MUSICA', 'VALORES']">
+  </app-single-filter>
+
+  <app-single-filter
+    (valueChanged)="tipo = $event"
+    filterName="tipo"
+    [title]="'FILTER_TYPE' | translate"
+    [options]="['OBRA_LITERARIA', 'TEXTO_EDUCATIVO']">
+  </app-single-filter>
+
+  <app-single-filter
+    (valueChanged)="idioma = $event"
+    filterName="idioma"
+    [title]="'FILTER_LANGUAGE' | translate"
+    [options]="['ESPANOL', 'INGLES']">
+  </app-single-filter>
+
+
+  <div class="filtrar-button-wrapper">
+    <button (click)="applyFilters()">{{ 'FILTRAR' | translate }}</button>
+  </div>
+
+</div>

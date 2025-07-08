@@ -1,0 +1,24 @@
+<div class="filter-group">
+  <div class="filter-header" (click)="toggle()">
+    <span>{{ title }}</span>
+    <span
+      class="toggle-icon"
+      [class.open]="isOpen"
+    >+</span>
+  </div>
+
+  <div
+    class="filter-options"
+    [@collapse]="isOpen ? 'open' : 'closed'"
+  >
+    <label *ngFor="let option of options" class="custom-checkbox">
+      <span class="option-label">{{ option | translate }}</span>
+      <span class="checkmark" [class.checked]="isSelected(option)"></span>
+      <input
+        type="checkbox"
+        [checked]="isSelected(option)"
+        (change)="toggleOption(option)"
+      />
+    </label>
+  </div>
+</div>

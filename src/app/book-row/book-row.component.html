@@ -1,0 +1,11 @@
+<div class="book-row">
+  <h2 class="row-title">{{ title }}</h2>
+  <div class="book-row-list">
+    <app-book-slot
+      *ngFor="let book of books"
+      [titulo]="book.titulo"
+      [tapaUrl]="book.tapa_small"
+      [simplifiedName]="book.simplified_name"
+    ></app-book-slot>
+  </div>
+</div>

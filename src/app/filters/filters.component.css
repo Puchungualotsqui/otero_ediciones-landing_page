@@ -1,0 +1,74 @@
+.filters-container {
+  background-color: #f8f9fb;
+  padding: 1.5rem 1.5rem 0.5rem;
+  border-radius: 8px;
+  width: 310px;
+  font-family: montserrat, serif;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.05);
+}
+
+.filters-title {
+  font-size: 1.3rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #1a1a1a;
+}
+
+.filter-group {
+  margin-bottom: 1rem;
+}
+
+.filter-header {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 0.25rem 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.toggle-icon {
+  font-weight: bold;
+}
+
+.filter-options {
+  padding: 0.5rem 0 0.5rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  font-size: 0.95rem;
+}
+
+.filter-options label {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.filtrar-button-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+
+.filtrar-button-wrapper button {
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  padding: 0.6rem 1.5rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+.filtrar-button-wrapper button:active {
+  transform: scale(0.98);
+}
+
+.filtrar-button-wrapper button:hover {
+  background-color: var(--primary-color-dark);
+}
+

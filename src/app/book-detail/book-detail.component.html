@@ -1,0 +1,92 @@
+<div class="book-detail-wrapper">
+  <div *ngIf="book" class="book-detail-container">
+    <div class="left-column">
+      <img class="book-cover" [src]="book.tapa_original_url" [alt]="book.titulo" />
+    </div>
+
+    <div class="right-column">
+      <h1 class="book-title">{{ book.titulo }}</h1>
+      <hr class="section-divider" />
+
+      <div class="info-columns-wrapper">
+        <div class="info-rows-wrapper">
+          <app-book-detail-feature
+            label="Autor/a"
+            [value]="book.autor"
+            *ngIf="book.autor !== undefined && book.autor !== null && book.autor !== ''">
+          </app-book-detail-feature>
+
+          <app-book-detail-feature
+            label="Ilustraciones"
+            [value]="book.ilustrador"
+            *ngIf="book.ilustrador !== undefined && book.ilustrador !== null && book.ilustrador !== ''">
+          </app-book-detail-feature>
+
+          <app-book-detail-feature
+            label="Tipo de Libro"
+            [value]="book.tipo"
+            *ngIf="book.tipo !== undefined && book.tipo !== null && book.tipo !== ''">
+          </app-book-detail-feature>
+
+          <app-book-detail-feature
+            label="Materia"
+            [value]="book.materia"
+            *ngIf="book.materia !== undefined && book.materia !== null && book.materia !== ''">
+          </app-book-detail-feature>
+
+          <app-book-detail-feature
+            label="Nivel Educativo"
+            [value]="book.nivel_educativo"
+            *ngIf="book.nivel_educativo !== undefined && book.nivel_educativo !== null && book.nivel_educativo !== ''">
+          </app-book-detail-feature>
+
+          <app-book-detail-feature
+            label="Género"
+            [value]="book.genero"
+            *ngIf="book.genero !== undefined && book.genero !== null && book.genero !== ''">
+          </app-book-detail-feature>
+
+          <app-book-detail-feature
+            label="Guía didáctica"
+            [value]="book.guia_didactica"
+            *ngIf="book.guia_didactica !== undefined && book.guia_didactica !== null && book.guia_didactica !== ''">
+          </app-book-detail-feature>
+
+          <app-book-detail-feature
+            label="Tamaño"
+            [value]="book.tamano"
+            *ngIf="book.tamano !== undefined && book.tamano !== null && book.tamano !== ''">
+          </app-book-detail-feature>
+
+          <app-book-detail-feature
+            label="Páginas"
+            [value]="book.paginas"
+            *ngIf="book.paginas !== undefined && book.paginas !== null && book.paginas !== ''">
+          </app-book-detail-feature>
+
+          <app-book-detail-feature
+            label="I.S.B.N."
+            [value]="book.isbn"
+            *ngIf="book.isbn !== undefined && book.isbn !== null && book.isbn !== ''">
+          </app-book-detail-feature>
+
+          <app-book-detail-feature
+            label="Depósito legal"
+            [value]="book.deposito_legal"
+            *ngIf="book.deposito_legal !== undefined && book.deposito_legal !== null && book.deposito_legal !== ''">
+          </app-book-detail-feature>
+
+        </div>
+      </div>
+
+      <hr class="section-divider" *ngIf="descripcionText !== undefined && descripcionText !== null && descripcionText !== ''"/>
+
+      <div class="sinopsis-wrapper" *ngIf="descripcionText !== undefined && descripcionText !== null && descripcionText !== ''">
+        <h2>Sinopsis</h2>
+        <div class="sinopsis" [innerText]="descripcionText"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+

@@ -1,0 +1,79 @@
+.filter-group{
+  margin-bottom: 30px;
+}
+
+.filter-header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.toggle-icon {
+  display: inline-block;
+  font-size: 1.2rem;
+  transition: transform 0.3s ease;
+  transform: rotate(0deg); /* default closed */
+}
+
+/* When open, rotate the + so it looks like a − */
+.toggle-icon.open {
+  transform: rotate(45deg); /* + rotated becomes × or − visually */
+}
+
+
+.filters-title{
+  font-size: 16px;
+  line-height: 1em;
+  font-weight: 500;
+}
+/* Hide the default checkbox */
+.custom-checkbox input[type="checkbox"] {
+  display: none;
+}
+
+/* Style the container */
+.custom-checkbox {
+  display: flex;
+  justify-content: space-between; /* 👈 push label left and circle right */
+  align-items: center;
+  cursor: pointer;
+  font-size: 0.95rem;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+/* The outer circle */
+.custom-checkbox .checkmark {
+  width: 16px;
+  height: 16px;
+  border: 2px solid #333;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+  transition: border-color 0.2s;
+}
+
+.custom-checkbox .checkmark.checked {
+  border-color: var(--primary-color);
+}
+
+/* The inner dot (only when checked) */
+.custom-checkbox .checkmark.checked::after {
+  content: '';
+  width: 8px;
+  height: 8px;
+  background-color: var(--primary-color);
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.option-label{
+  font-weight: 400;
+  font-size: 14px;
+}

@@ -1,0 +1,15 @@
+<form (ngSubmit)="onSubmit()" class="search-bar" >
+  <input
+    type="text"
+    name="search"
+    [placeholder]="'SEARCH_PLACEHOLDER' | translate"
+    [attr.aria-label]="'SEARCH_PLACEHOLDER' | translate"
+    [(ngModel)]="query"
+  />
+
+  <div class="search-button-wrapper">
+    <button type="submit" aria-label="Buscar" routerLink="/catalogo" routerLinkActive="active">
+      <img alt="search icon" src="./assets/search_icon.svg">
+    </button>
+  </div>
+</form>

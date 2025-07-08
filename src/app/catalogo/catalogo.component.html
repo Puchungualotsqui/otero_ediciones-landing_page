@@ -1,0 +1,19 @@
+<div class="catalogo-container">
+  <div class="filters-wrapper">
+    <app-filters></app-filters>
+  </div>
+
+  <div class="right-column">
+    <div class="catalog-content">
+      <app-book-slot
+        *ngFor="let libro of libros"
+        [tapaUrl]="libro.tapa_small"
+        [titulo]="libro.titulo"
+        [simplifiedName]="libro.simplified_name">
+      </app-book-slot>
+    </div>
+    <div class="load-more-wrapper">
+      <app-load-more/>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,7 @@
+<div class="home">
+  <app-book-row
+    *ngFor="let row of homeRows"
+    [title]="row.titulo | translate"
+    [books]="row.book_responses">
+  </app-book-row>
+</div>

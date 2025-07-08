@@ -1,0 +1,105 @@
+.book-detail-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.book-detail-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  max-width: 1000px;
+}
+
+.left-column {
+  position: sticky;
+  top: 65px; /* or whatever spacing you want from the top */
+  align-self: start; /* ensures it respects flex layout */
+  width: 300px;
+  height: fit-content;
+}
+
+.book-cover {
+  width: 100%;
+  height: auto;
+  border: 1px solid #ccc;
+}
+
+.novelty-tag {
+  position: absolute;
+  top: 0;
+  left: -30px;
+  background-color: red;
+  color: white;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  font-weight: bold;
+  padding: 10px 5px;
+}
+
+.right-column {
+  flex: 1;
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 0 1rem;
+}
+
+.book-title {
+  font-size: 3.2rem;
+  margin: 0;
+  font-weight: bold;
+  color: #333;
+}
+
+.section-divider {
+  border: none;
+  height: 2px;
+  background-color: #ddd;
+  margin: 0;
+}
+
+.sinopsis-wrapper h2 {
+  margin: 0;
+}
+
+.sinopsis {
+  text-align: justify;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  font-size: 0.95rem;
+  max-width: 100%;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .book-detail-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .left-column {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .right-column {
+    width: 100%;
+    gap: 1rem;
+  }
+
+  .book-title {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+
+  .section-divider {
+    margin: 0.5rem 0;
+  }
+
+  .sinopsis-wrapper h2 {
+    text-align: center;
+  }
+}

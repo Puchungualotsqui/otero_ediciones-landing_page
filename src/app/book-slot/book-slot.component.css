@@ -1,0 +1,40 @@
+.book-slot {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 250px;
+  height: 450px;
+  padding: 1rem;
+  margin: 0 1rem 1rem;
+  border: 1px solid #e0e0e0;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  background-color: #fff;
+  transition: transform 0.2s;
+  cursor: pointer;
+  text-decoration: none;
+  color: inherit;
+}
+
+.book-slot:hover {
+  transform: scale(1.03);
+}
+
+.book-cover {
+  width: 220px;
+  height: 330px;
+}
+
+.book-info {
+  text-align: center;
+  height: 100%;
+}
+
+.book-title {
+  font-size: 1.1rem;
+  font-weight: 400;
+  align-content: center;
+  margin: 0;
+  height: 100%;
+  text-decoration: none;
+  color: inherit;
+}
