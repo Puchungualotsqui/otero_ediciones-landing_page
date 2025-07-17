@@ -26,5 +26,4 @@ export class FiltersComponent {
     this.bookSearchService.startIndex = 0;
     this.bookSearchService.loadBooks().subscribe();
   }
-
 }

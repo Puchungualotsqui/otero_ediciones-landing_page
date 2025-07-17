@@ -6,6 +6,22 @@
   line-height: 1.6;
 }
 
+.hitoria-image-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 0;
+  overflow: hidden; /* avoids weird scrollbars */
+}
+
+.historia-image {
+  max-width: 100%;   /* never exceeds container width */
+  height: auto;      /* keeps aspect ratio */
+  object-fit: contain; /* ensures it’s fully visible */
+}
+
+
 .historia-container h1 {
   font-size: 2.5rem; /* Tamaño más grande */
   margin-top: 2rem;
