@@ -69,7 +69,7 @@ export class BookSearchService {
     const queryParams = this.getNormalizedQueryParams();
     const queryString = new URLSearchParams(queryParams).toString();
 
-    const baseUrl = 'http://localhost:8080/catalogo';
+    const baseUrl = '/api/catalogo';
     const finalUrl = queryString ? `${baseUrl}?${queryString}` : baseUrl;
 
     console.log('finalUrl', finalUrl);

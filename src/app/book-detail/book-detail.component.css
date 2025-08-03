@@ -83,6 +83,7 @@
   .left-column {
     width: 100%;
     max-width: 300px;
+    position: static;
   }
 
   .right-column {

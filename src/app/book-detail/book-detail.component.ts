@@ -32,7 +32,7 @@ export class BookDetailComponent {
   }
 
   loadBook(slug: string) {
-    const url = 'http://localhost:8080/catalogo/' + slug;
+    const url = '/api/catalogo/' + slug;
 
     this.http.get<any>(url).subscribe({
       next: (data) => {

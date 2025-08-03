@@ -19,7 +19,7 @@ export class HomeService {
 
   // Call this to load books from backend
   getBooks(): Observable<any[]> {
-    const url = 'http://localhost:8080/home';
+    const url = '/api/home';
 
     return this.http.get<any[]>(url).pipe(
       tap(response => {
